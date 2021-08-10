@@ -72,16 +72,7 @@
 @push('js')
     <!-- Chart.js -->
     <script src="{{ asset('assets/vendor/Chart.min.js') }}"></script>
-
     <!-- App Charts JS -->
     <script src="{{ asset('assets/js/charts.js') }}"></script>
     <script src="{{ asset('assets/js/progress-charts.js') }}"></script>
-
-    <!-- Chart Samples -->
-    <script src="{{ asset('assets/js/page.analytics.js') }}"></script>
-
-    <!-- Vector Maps -->
-    <script src="{{ asset('assets/vendor/jqvmap/jquery.vmap.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/jqvmap/maps/jquery.vmap.world.js') }}"></script>
-    <script src="{{ asset('assets/js/vector-maps.js') }}"></script>
 @endpush
